@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <parent>
+    <artifactId>java_aws-lambda</artifactId>
+    <groupId>com.maixuanviet</groupId>
+    <version>1.0.0</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>shipping-tracker</artifactId>
+  <name>shipping-tracker</name>
+  <description>shipping-tracker</description>
+  <build>
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+      </resource>
+    </resources>
+    <plugins>
+      <plugin>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>3.1.1</version>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration />
+      </plugin>
+    </plugins>
+  </build>
+  <properties>
+    <jackson-databind.version>2.11.2</jackson-databind.version>
+    <hibernate.version>5.4.21.Final</hibernate.version>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <java.version>11</java.version>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <aws-lambda-java-core.version>1.2.0</aws-lambda-java-core.version>
+    <postgresql.version>42.2.16</postgresql.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <aws-lambda-java-events.version>3.1.0</aws-lambda-java-events.version>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+  </properties>
+</project>

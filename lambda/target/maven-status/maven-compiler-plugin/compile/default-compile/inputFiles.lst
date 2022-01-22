@@ -1,0 +1,8 @@
+D:\Project\JAVA_PROJECT\java_aws-lambda\lambda\src\main\java\com\maixuanviet\lambda\dynamodb\bean\PersonRequest.java
+D:\Project\JAVA_PROJECT\java_aws-lambda\lambda\src\main\java\com\maixuanviet\lambda\apigateway\model\Person.java
+D:\Project\JAVA_PROJECT\java_aws-lambda\lambda\src\main\java\com\maixuanviet\lambda\dynamodb\bean\PersonResponse.java
+D:\Project\JAVA_PROJECT\java_aws-lambda\lambda\src\main\java\com\maixuanviet\lambda\LambdaRequestStreamHandler.java
+D:\Project\JAVA_PROJECT\java_aws-lambda\lambda\src\main\java\com\maixuanviet\lambda\LambdaMethodHandler.java
+D:\Project\JAVA_PROJECT\java_aws-lambda\lambda\src\main\java\com\maixuanviet\lambda\LambdaRequestHandler.java
+D:\Project\JAVA_PROJECT\java_aws-lambda\lambda\src\main\java\com\maixuanviet\lambda\apigateway\APIDemoHandler.java
+D:\Project\JAVA_PROJECT\java_aws-lambda\lambda\src\main\java\com\maixuanviet\lambda\dynamodb\SavePersonHandler.java

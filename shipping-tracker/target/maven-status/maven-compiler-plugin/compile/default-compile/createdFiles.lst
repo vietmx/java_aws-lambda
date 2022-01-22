@@ -1,0 +1,6 @@
+com\maixuanviet\lambda\shipping\ShippingService.class
+com\maixuanviet\lambda\shipping\Consignment.class
+com\maixuanviet\lambda\shipping\Checkin.class
+com\maixuanviet\lambda\shipping\ShippingDao.class
+com\maixuanviet\lambda\shipping\App.class
+com\maixuanviet\lambda\shipping\Item.class

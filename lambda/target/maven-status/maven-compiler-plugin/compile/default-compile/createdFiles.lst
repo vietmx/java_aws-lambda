@@ -1,0 +1,8 @@
+com\maixuanviet\lambda\dynamodb\SavePersonHandler.class
+com\maixuanviet\lambda\LambdaMethodHandler.class
+com\maixuanviet\lambda\LambdaRequestStreamHandler.class
+com\maixuanviet\lambda\apigateway\model\Person.class
+com\maixuanviet\lambda\dynamodb\bean\PersonResponse.class
+com\maixuanviet\lambda\apigateway\APIDemoHandler.class
+com\maixuanviet\lambda\LambdaRequestHandler.class
+com\maixuanviet\lambda\dynamodb\bean\PersonRequest.class
